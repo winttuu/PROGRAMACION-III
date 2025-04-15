@@ -1,0 +1,38 @@
+<!-- Definir en la hoja de estilo estas dos clases:
+.subrayado {
+    color:#00aa00;
+    text-decoration:underline;
+}
+.tachado {
+    color:#00aa00;
+    text-decoration:line-through;
+}
+Luego, en la página HTML, definir un título con nivel h1 (subrayar todo el título). Luego un párrafo que tenga
+algunas palabras subrayadas y otras tachadas (utilizar un elemento span para asignar estilos a una palabra). -->
+
+<!Doctype html>
+<html>
+    <head>
+        <meta charset="UTF-8"> 
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <meta name="application-name" content="Introducción a HTML 5"> 
+        <meta name="author" content="UTN-fra"> 
+        <meta name="description" content="Ejemplos de tags semánticos">
+        <meta name="generator" content="UTN-fra"> 
+        <meta name="keywords" content="ejemplos, programación, html 5, etc."> 
+        <link rel="stylesheet" href="index.css">
+        <title>Ejercicio 10</title>
+    </head>
+    <body>
+        <section class="section">
+            <h1 class="subrayado">Priscilla Escobar</h1>
+            
+            <div>
+                <p>Lorem ipsum <span class="tachado">dolor sit amet</span> consectetur adipisicing elit. <span class="tachado">Voluptate</span>, 
+                minima vero quod perferendis quibusdam nulla doloremque neque deserunt recusandae obcaecati fugiat. 
+                Perferendis quod culpa <span class="tachado">assumenda ipsam qui</span> velit enim. Corrupti!
+            </p>
+            </div>
+        </section>
+    </body>
+</html>

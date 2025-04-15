@@ -1,0 +1,13 @@
+
+.navbar {
+    box-shadow: rgba(113, 114, 118, 0.24) 0px 3px 8px;
+    border-radius: 15px;
+    width: 80%;
+    margin: 2em auto;
+    padding: 1em;
+}
+
+ul { 
+    display: flex;
+    justify-content: space-around;
+}

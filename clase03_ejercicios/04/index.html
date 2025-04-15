@@ -1,0 +1,44 @@
+<!-- Confeccionar una página que muestre el título de una noticia. Seguidamente un párrafo con el resumen de la
+noticia y finalmente la noticia completa. Utilizar las propiedades relacionadas al texto vistas en CSS para
+realzar la noticia en la página. -->
+
+
+
+<!Doctype html>
+<html>
+    <head>
+        <title>Ejercicio 4</title>
+        <meta charset="UTF-8"> 
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <meta name="application-name" content="Introducción a HTML 5"> 
+        <meta name="author" content="UTN-fra"> 
+        <meta name="description" content="Ejemplos de tags semánticos">
+        <meta name="generator" content="UTN-fra"> 
+        <meta name="keywords" content="ejemplos, programación, html 5, etc."> 
+        <style>
+            div.noticeWrapper { width: 1024px; margin: 0 auto; }
+            h1 { color: brown; font-weight: bolder;}
+            p.date { color: red; }
+            hr { background-color: brown; height: 15px;}
+            p.description {
+                font-size: 20px;
+            }
+            img { 
+                box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="noticeWrapper">
+            <h1>El Gobierno revocó la residencia del español Antoni Gutiérrez-Rubí, estratega de campaña del PRO</h1>
+            <h3>La Dirección Nacional Migraciones no le renovó el permiso al asesor que trabaja en la Ciudad de Buenos Aires con la lista que encabeza Silvia Lospennato. Había sido blanco de críticas de Javier Milei</h3>
+            <p class="date">11 Abr, 2025 01:56 p.m. AR</p>
+            <img src="https://www.infobae.com/resizer/v2/OGHHKGWSF5E3FDXHGUNHWBDF4U.jpg?auth=febbf539aae2889b7e35ce6c06257fb1e8579a6f89cc06cfa796128909b2d2bb&smart=true&width=992&height=661&quality=85"/> 
+            <hr />
+            <br />
+            <p class="description">Según pudo saber Infobae, el argumento utilizado por la Dirección Nacional de Migraciones es que Gutiérrez-Rubí tenía una residencia temporaria tramitada en 2024. “Él informó que está trabajando en la Universidad de Tres de Febrero, pero oficiales de Migración detectaron que esto es mentira y además es público que actualmente está trabajando para el PRO”, explicaron las fuentes consultadas.</p>
+            <p class="description">Allegados al prestigioso consultor internacional aseguraron que Gutiérrez-Rubí ya está al tanto de la decisión y está trabajando en su defensa legal. “Voy a defenderme”, le anticipó a su equipo de trabajo en Buenos Aires.</p>
+            <p class="description">Gutiérrez-Rubí había sido blanco de un ataque público del presidente Javier Milei, quien en redes sociales lo calificó como “basura humana” por su participación en la campaña presidencial de Sergio Massa en el 2023. También había sido cuestionado por Daniel Parisini, conocido en redes como “El Gordo Dan”.</p>
+        </div>
+    </body>
+</html>

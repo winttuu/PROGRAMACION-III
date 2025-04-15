@@ -1,0 +1,21 @@
+
+span.span-1 {
+    letter-spacing: 6px;
+    word-spacing: 6px;
+}
+
+
+span.span-2 {
+    letter-spacing: 4px;
+    word-spacing: 4px;
+}
+
+
+span.span-3 {
+    letter-spacing: 2px;
+    word-spacing: 2px;
+}
+
+span { 
+    text-transform: uppercase;
+}

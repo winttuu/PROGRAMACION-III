@@ -1,0 +1,37 @@
+<!-- Confeccionar una página que contenga dos divisiones con una serie de párrafos cada una.
+Disponer de un color de fondo distinto para cada sección. En la segunda sección mostrar el
+mismo texto de la primera sección pero con algunas palabras tachadas (utilizar text-decoration:underline
+en un archivo ubicado en la carpeta raíz de la aplicación). -->
+
+<!Doctype html>
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+        <meta charset="UTF-8"> 
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <meta name="application-name" content="Introducción a HTML 5"> 
+        <meta name="author" content="UTN-fra"> 
+        <meta name="description" content="Ejemplos de tags semánticos">
+        <meta name="generator" content="UTN-fra"> 
+        <meta name="keywords" content="ejemplos, programación, html 5, etc."> 
+        <title>Ejercicio 5</title>
+        <style>
+            p { color: white; }
+            section.section-1 { background-color: red; }
+            section.section-2 { background-color: blue; }
+        </style>
+    </head>
+    <body>
+        <section class="section-1">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid cumque est adipisci hic accusantium, voluptas aliquam ipsa veritatis nostrum eaque maiores optio sint quod, quis debitis fugit unde voluptatum ratione.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid cumque est adipisci hic accusantium, voluptas aliquam ipsa veritatis nostrum eaque maiores optio sint quod, quis debitis fugit unde voluptatum ratione.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid cumque est adipisci hic accusantium, voluptas aliquam ipsa veritatis nostrum eaque maiores optio sint quod, quis debitis fugit unde voluptatum ratione.</p>
+        </section>
+
+        <hr />
+        <section class="section-2">
+            <p>Lorem ipsum dolor sit amet <p class="underline">consectetur</p> adipisicing elit. Aliquid cumque est adipisci hic accusantium, voluptas aliquam ipsa veritatis nostrum eaque maiores optio sint quod, quis <p class="underline">debitis fugit</p> unde voluptatum ratione.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid cumque est adipisci hic accusantium, <p class="underline">voluptas aliquam</p> ipsa veritatis nostrum eaque maiores optio sint quod, quis debitis fugit unde <p class="underline">voluptatum</p> ratione.</p>
+        </section>
+    </body>
+</html>
